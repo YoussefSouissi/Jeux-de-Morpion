@@ -21,8 +21,8 @@ void Joueur::InitialiseSymbole()
     bool symboleValide = false;
 
     while (!symboleValide) {
-        cout << "Choisissez votre symbole parmi les symboles suivants : * o x +" << endl;
-        cout << "Choix : ";
+        cout << "   Choisissez votre symbole parmi les symboles suivants : * o x +" << endl;
+        cout << "   Choix : ";
         cin >> symboleChoisi;
 
         if (symboleChoisi == '*' || symboleChoisi == 'o' || symboleChoisi == 'x' || symboleChoisi == '+') {

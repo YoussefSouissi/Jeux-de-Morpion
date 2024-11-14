@@ -20,9 +20,9 @@ Personne::Personne()
 
 void Personne::InitialisePlayer()
 {
-	cout << "Entrez votre nom :  ";
+	cout << "   Entrez votre nom :  ";
 	cin >> this->nom;
-	cout << "Entrez votre prenom  : ";
+	cout << "   Entrez votre prenom  : ";
 	cin >> this->prenom;
 
 }
